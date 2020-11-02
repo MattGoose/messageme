@@ -1,1 +1,0 @@
-store board posts in posts[] attribute in boards collection
