@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/messageme/static/css/main.02ffabea.chunk.css",
-    "main.js": "/messageme/static/js/main.689228f3.chunk.js",
-    "main.js.map": "/messageme/static/js/main.689228f3.chunk.js.map",
+    "main.css": "/messageme/static/css/main.238df48c.chunk.css",
+    "main.js": "/messageme/static/js/main.03f0c03d.chunk.js",
+    "main.js.map": "/messageme/static/js/main.03f0c03d.chunk.js.map",
     "runtime-main.js": "/messageme/static/js/runtime-main.1b4de291.js",
     "runtime-main.js.map": "/messageme/static/js/runtime-main.1b4de291.js.map",
-    "static/js/2.d3183712.chunk.js": "/messageme/static/js/2.d3183712.chunk.js",
-    "static/js/2.d3183712.chunk.js.map": "/messageme/static/js/2.d3183712.chunk.js.map",
+    "static/js/2.07e49408.chunk.js": "/messageme/static/js/2.07e49408.chunk.js",
+    "static/js/2.07e49408.chunk.js.map": "/messageme/static/js/2.07e49408.chunk.js.map",
     "static/js/3.60c8e23a.chunk.js": "/messageme/static/js/3.60c8e23a.chunk.js",
     "static/js/3.60c8e23a.chunk.js.map": "/messageme/static/js/3.60c8e23a.chunk.js.map",
     "index.html": "/messageme/index.html",
-    "static/css/main.02ffabea.chunk.css.map": "/messageme/static/css/main.02ffabea.chunk.css.map",
-    "static/js/2.d3183712.chunk.js.LICENSE.txt": "/messageme/static/js/2.d3183712.chunk.js.LICENSE.txt"
+    "static/css/main.238df48c.chunk.css.map": "/messageme/static/css/main.238df48c.chunk.css.map",
+    "static/js/2.07e49408.chunk.js.LICENSE.txt": "/messageme/static/js/2.07e49408.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b4de291.js",
-    "static/js/2.d3183712.chunk.js",
-    "static/css/main.02ffabea.chunk.css",
-    "static/js/main.689228f3.chunk.js"
+    "static/js/2.07e49408.chunk.js",
+    "static/css/main.238df48c.chunk.css",
+    "static/js/main.03f0c03d.chunk.js"
   ]
 }

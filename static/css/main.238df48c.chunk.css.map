@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,SACE,kBAAmB,CACnB,cAAe,CACf,kBACF,CACA,cACE,gBACF","file":"main.238df48c.chunk.css","sourcesContent":[".addPost {\n  border-radius: 10px;\n  margin-top: 5px;\n  margin-bottom: 30px;\n}\n.loadingPosts {\n  margin-top: 300px;\n}\n"]}
