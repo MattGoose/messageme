@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import { logoutAction } from '../../store/actions/authActions';
@@ -7,10 +8,7 @@ import { logoutAction } from '../../store/actions/authActions';
 const SignedInLinks = (props) => {
     return (
         <div>
-            <ul className="right hide-on-med-and-down">
-                <li><a href="# " onClick={props.logoutAction}>Logout</a></li>
-            </ul>
-            <ul className="sidenav" id="mobile-menu">
+            <ul className="right">
                 <li><a href="# " onClick={props.logoutAction}>Logout</a></li>
             </ul>
         </div>

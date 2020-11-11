@@ -27,10 +27,10 @@ class CreatePost extends Component {
 
     render() {
         return (
-            <div className="center">
+            <div className="container center">
                 <form onSubmit={this.handleSubmit} className="white">
-                    <textarea id="postContent" className="materialize-textarea" onChange={this.handleChange} value={this.state.postContent}></textarea>
-                    <button className="btn pink lighten-2 z-depth-0">Add post</button>
+                    <textarea id="postContent" className="materialize-textarea" placeholder="What's on your mind?" onChange={this.handleChange} value={this.state.postContent}></textarea>
+                    <button className="addPost btn pink lighten-2 z-depth-0">Add post</button>
                 </form>
             </div>
         )

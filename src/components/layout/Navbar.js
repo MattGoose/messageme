@@ -6,10 +6,7 @@ import { isLoaded } from 'react-redux-firebase';
 
 import SignedInLinks from './SignedInLinks';
 import SignedOutLinks from './SignedOutLinks';
-
-
-//BUG - MOBILE SIDEBAR DOESN'T WORK
-
+import { logoutAction } from '../../store/actions/authActions';
 
 //component is a function, so must pass props as an argument
 //this. is not needed
@@ -21,15 +18,14 @@ const Navbar = (props) => {
     const links = auth.uid ? <SignedInLinks /> : <SignedOutLinks />
 
     return (
-        <nav className="nav-wrapper teal darken-3">
-            <div className="container">
-                <Link to='/' className="brand-logo">MessageMe!</Link>
-                <Link to="#" className="sidenav-trigger right" data-target="mobile-menu">
-                    <i className="material-icons">menu</i>
-                </Link>
-                {isLoaded(auth) && links}
-            </div>
-        </nav>
+        <div>
+            <nav className="nav-wrapper teal lighten-2 z-depth-0">
+                <div className="container">
+                    <Link to='/' className="brand-logo">MessageMe!</Link>
+                    {isLoaded(auth) && links}
+                </div>
+            </nav>
+        </div>  
     )
 }
 

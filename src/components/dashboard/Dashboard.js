@@ -21,8 +21,10 @@ class Dashboard extends Component {
         if (isLoaded(auth) && !auth.uid) return <Redirect to='/login' />
 
         return (
-            <div className="dashboard container">
-                <PostList posts={posts} />
+            <div>
+                <div className="dashboard container">
+                    <PostList posts={posts} />
+                </div>
             </div>
         )
     }
