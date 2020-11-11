@@ -9,7 +9,7 @@ const SignedInLinks = (props) => {
     return (
         <div>
             <ul className="right">
-                <li><a href="# " onClick={props.logoutAction}>Logout</a></li>
+                <li><Link to="# " onClick={props.logoutAction}>Logout</Link></li>
             </ul>
         </div>
     )

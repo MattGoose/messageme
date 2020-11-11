@@ -20,13 +20,28 @@ class Dashboard extends Component {
         //then if user is not logged in, redirect to login
         if (isLoaded(auth) && !auth.uid) return <Redirect to='/login' />
 
-        return (
-            <div>
-                <div className="dashboard container">
-                    <PostList posts={posts} />
+        if (posts) {
+           return (
+                <div>
+                    <div className="container">
+                        <PostList posts={posts} />
+                    </div>
                 </div>
-            </div>
-        )
+            ) 
+        } else {
+            return (
+                <div className="loadingPosts container">
+                    <div className="container center">
+                        <div className="card z-depth-1 grey lighten-4">
+                            <div className="card-content grey-text text-darken-3">
+                                <span className="card-title">Loading posts...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )
+        }
+        
     }
 }
 

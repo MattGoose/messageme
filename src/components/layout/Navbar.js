@@ -6,7 +6,6 @@ import { isLoaded } from 'react-redux-firebase';
 
 import SignedInLinks from './SignedInLinks';
 import SignedOutLinks from './SignedOutLinks';
-import { logoutAction } from '../../store/actions/authActions';
 
 //component is a function, so must pass props as an argument
 //this. is not needed
